@@ -1,0 +1,28 @@
+.headerImage{
+    background-color: rgb(40, 145, 92);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+}
+
+.headerImage p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    min-height: 500px;
+}
+
+.notedesc{
+    min-height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.notedesc p{
+    padding: 10px;
+    font-size: 25px;
+}

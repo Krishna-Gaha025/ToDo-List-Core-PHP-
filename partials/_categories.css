@@ -1,0 +1,65 @@
+.username a{
+    color: white;
+}
+
+.headerImage{
+    height: 400px;
+    background-image: url("../img/classic4.png");
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.headingname{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 85px;
+}
+
+#cat_insert{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+/* ***************Category Heading***************** */
+#cat_heading{
+    display: flex;
+}
+
+#div1{
+    padding-top: 8px;
+}
+
+#modalbody{
+    /* background-color: cyan; */
+    background-image: url("../img/classic2.png");
+}
+
+#modalbody label{
+    font-weight: bold;
+}
+
+.modal-header{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* ******************Category Body****************** */
+.container{
+    min-height: 500px;
+}
+
+#catLogo{
+    height: 70px;
+    width: auto;
+}
+
+#cat_title{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}

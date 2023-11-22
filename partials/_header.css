@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    color: white;
+    background-image: url("../img/classic3.png");
+    padding-bottom: 6px;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+}
+
+.mid{
+    display: block;
+    width: 37%;
+    margin: -15px auto;
+    line-height: 50px;
+    padding-top: 5px;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 0px;
+}
+
+
+.username a{
+    color: white;
+}
+
+
+/* ***************** LOGO ***************** */
+.left img{
+    height: 45px;
+    width: auto;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.left .logoname{
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
+    width: 95px;
+    position: absolute;
+    left: 54px;
+    top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* ******************Mid Header*********************** */
+.navbar{padding-bottom: 0;}
+
+.navbar ul li{display: inline-block;}
+
+.navbar ul li a{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    padding-left: 18px;
+}
+
+.navbar ul li a:hover, .navbar ul li a.active{
+    text-decoration: underline;
+}
+
+
+/* **********************Right Header******************** */
+.username img{
+    height: 43px;
+    width: auto;
+    position: absolute;
+    right: 162px;
+    top: 0px;
+}
+
+.username .name{
+    font-size: 20px;
+    width: 95px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-right: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

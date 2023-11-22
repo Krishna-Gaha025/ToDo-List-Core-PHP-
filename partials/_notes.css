@@ -1,0 +1,61 @@
+#carouselExampleIndicators img{
+    height: 600px;
+    width: 100%;
+}
+
+#cat_insert{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+/* ***************Note Heading***************** */
+#cat_heading{
+    display: flex;
+}
+
+#div1{
+    padding-top: 8px;
+}
+
+#div2{
+    font-size: 35px;
+    font-weight: 450;
+    width: 50%;
+    margin: auto;
+}
+
+#modalbody{
+    /* background-color: cyan; */
+    background-image: url("../img/classic2.png");
+}
+
+#modalbody label{
+    font-weight: bold;
+}
+
+.modal-header{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* ******************Note Body****************** */
+.container{
+    min-height: 500px;
+}
+
+.card-body p{
+    height: 150px;
+}
+
+.card-body{
+    background-image: url("../img/classic3.png");
+    color: white;
+}
+
+.card a{
+    text-decoration: none;
+}

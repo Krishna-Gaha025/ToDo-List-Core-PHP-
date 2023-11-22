@@ -1,0 +1,108 @@
+body {
+    background-image: url("../img/mainwallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* **********Body Flex*************** */
+.containers{display:flex;}
+
+.containers div{
+  width: 100%;
+}
+
+.signup{
+    /* background-image: url("../img/classic2.png"); */
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image img{
+    margin: 10px;
+    width: 80%;
+    height: auto;
+}
+
+a{
+    color: white;
+}
+
+/* **************************************** */
+
+
+
+p {
+    font-size: 25px;
+    color: white;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.collapse input {
+    height: 40px;
+    width: 280px;
+    border: 3px;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+
+#sub {
+    width: 100px;
+    background-color: #5bd47b;
+    color: white;
+    font-size: 20px;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+}
+
+.signup input {
+    width: 100%;
+    height: 40px;
+}
+
+.collapse button{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+#slogan{
+    font-family:'Times New Roman', Times, serif;
+}
+
+span{
+    color: white;
+    font-size: 20px;
+}
+
+#feedback{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#aboutus{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
